@@ -41,3 +41,9 @@ I will be checking for who committed. I want to make sure everyone pulls their w
 ### Project diagram
 
 ![](image/115-p2.png)
+
+## Solution
+
+JS form validation
+
+![](image/validation.png)
