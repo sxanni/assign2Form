@@ -13,7 +13,8 @@ that the repo will be on his user
 ```
 
 ```
-The assessment should be consistent with 50 commits and at least 10 merges, the project itself should be legitimate, a website that you are creating or any project that involves code that you see fit as well you will need to make the main branch protected and create a develop branch, that is the only one branch that can be merged into main, all the feature branches should be merge into the develop branch
+The assessment should be consistent with 50 commits and at least 10 merges,
+ the project itself should be legitimate, a website that you are creating or any project that involves code that you see fit as well you will need to make the main branch protected and create a develop branch, that is the only one branch that can be merged into main, all the feature branches should be merge into the develop branch
 
 
 You will have two weeks to complete the assignment.
@@ -40,3 +41,9 @@ I will be checking for who committed. I want to make sure everyone pulls their w
 ### Project diagram
 
 ![](image/115-p2.png)
+
+## Solution
+
+JS form validation
+
+![](image/validation.png)
