@@ -202,4 +202,6 @@ body{
   background:#8700a8;
   border-radius:50px;
   position: absolute;
+  opacity: 0.6;
+  display: none;
 }
