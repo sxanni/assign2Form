@@ -196,3 +196,10 @@ body{
   cursor:grab;
 
 }
+#cursor{
+  height:50px;
+  width:50px;
+  background:#8700a8;
+  border-radius:50px;
+  position: absolute;
+}

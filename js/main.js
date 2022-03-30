@@ -5,3 +5,5 @@ function verifyPassword(){
         alert("password not matching")
     }
 }
+
+// ------cursor style-----------
