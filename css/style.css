@@ -204,4 +204,6 @@ body{
   position: absolute;
   opacity: 0.6;
   display: none;
+  transition-duration:0.3s;
+  transition-timing-function: ease-out;
 }
