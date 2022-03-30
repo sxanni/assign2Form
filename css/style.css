@@ -17,6 +17,7 @@ body {
 .main-container{
   background-image: url('galaxy.gif');
   background-size: cover;
+
   
   /* opacity:1; */
   
@@ -70,6 +71,12 @@ form {
 .form-control label {
   display: inline-block;
   margin-bottom: 5px;
+}
+
+.form-control input{
+  position: relative;
+  z-index:2;
+
 }
 
 .form-control input, #gender-types {
@@ -170,7 +177,6 @@ form button:hover {
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
 /* Links inside the dropdown */
@@ -206,4 +212,8 @@ body{
   display: none;
   transition-duration:0.3s;
   transition-timing-function: ease-out;
+  /* z-index: -1; */
+}
+div:hover ~ #cursor{
+  transform: scale(0.5);
 }
