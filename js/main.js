@@ -18,3 +18,8 @@ document.onmousemove = function(e){     //this e gives the coordinates of x and 
 
 
 };
+// document.onmousedown = function(e){
+
+//     cursor.style.transform
+
+// };
