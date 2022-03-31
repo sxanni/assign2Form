@@ -199,6 +199,19 @@ body{
   cursor:grab;
 
 }
+audio{
+  color: #8700a8;
+  opacity: 0.4;
+  display:flexbox;
+  justify-self: center;
+  position:absolute;
+  top: 12.8%;
+  left:20.5%;
+  width: 270px;
+  z-index: 2;
+  transform: rotatez(90deg);
+  /* background-color: yellow; */
+}
 #cursor{
   height:50px;
   width:50px;
