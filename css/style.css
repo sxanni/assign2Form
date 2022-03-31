@@ -201,7 +201,7 @@ body{
 }
 audio{
   color: #8700a8;
-  opacity: 0.4;
+  opacity: 0.3;
   display:flexbox;
   justify-self: center;
   position:absolute;
@@ -210,7 +210,9 @@ audio{
   width: 270px;
   z-index: 2;
   transform: rotatez(90deg);
-  /* background-color: yellow; */
+}
+audio:hover{
+  opacity: 0.8;
 }
 #cursor{
   height:50px;
@@ -235,15 +237,10 @@ div:hover ~ #cursor{
 @media(max-height:750px) {
 
   main {
-    /* padding: 10px 10px; */
     width: 60vh;
     height: 100%;
     padding-bottom: 20%;
-    /* display: flexbox; */
-    /* justify-content:center; */
-    /* margin-bottom: 20px; */
-    /* position:static; */
-    
+   
   }
 
   form{
@@ -261,19 +258,5 @@ div:hover ~ #cursor{
   }
 
 
-
-  /* .dog {
-    transform: rotate(0deg);
-    position: static;
-    margin-left: 0px;
-  }
-
-  #title {
-    position: static;
-    text-align: center;
-  }
-  #features{
-    position: static;
-  } */
 
 }
