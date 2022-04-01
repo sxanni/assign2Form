@@ -236,26 +236,46 @@ div:hover ~ #cursor{
 
 @media(max-height:750px) {
 
+
   main {
     width: 60vh;
     height: 100%;
-    padding-bottom: 20%;
-   
+    padding-bottom: 20%;   
   }
+
 
   form{
     padding: 22px;
   }
+
 
   .form-control{
     width: 95%;
     height: 95%;
   }
 
+
   .logo{
     width: 106px;
     display:none;
   }
+
+}
+
+@media(max-width:1222px){
+
+  
+
+audio{
+  display:flexbox;
+  justify-self: center;
+  position:absolute;
+  top: 6.8%;
+  left:2%;
+  width: 170px;
+  z-index: 2;
+  transform: rotatez(90deg);
+}
 
 
 
